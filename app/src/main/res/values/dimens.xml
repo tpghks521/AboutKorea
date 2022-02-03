@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<dimen name="pageMargin">50dp</dimen>
+	<dimen name="pagerWidth">50dp</dimen>
+</resources>

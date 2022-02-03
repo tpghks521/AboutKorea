@@ -31,6 +31,8 @@ class MainActivity : AppCompatActivity() {
 		viewPager.adapter = mainAdapter
 		tabLayout = binding.tabLayout
 
+		viewPager.isUserInputEnabled = false
+
 		TabLayoutMediator(tabLayout, viewPager) { tab, position ->
 			tab.text = mainAdapter.getTitle(position)
 		}.attach()
